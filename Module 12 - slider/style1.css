@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    box-sizing: border-box;
+}
+.hero {
+    background-color: #131313;;
+    padding: 107px 140px 0px;
+    height: 783px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.list {
+    position: absolute;
+    display: inline;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Yeseva One';
+    list-style: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    margin-top: -53px;
+    padding: 0;
+   
+}
+.listnav {
+    display: inline-block;
+    text-align: right;
+    margin-right: 55px; 
+    cursor: pointer;
+}
+.listnav_active {
+    text-decoration: underline;
+    color: #E3B873;
+}
+.title {
+    color: #E3B873;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    text-transform: uppercase;
+    line-height: 37px;
+    height: 66px;
+    width: 290px;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+}
+.paragraph {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 442px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+.main {
+    display: grid;
+    grid-row: 1;
+
+}
+.side_text {
+    display: grid;
+}
+.description {
+    max-width: 700px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 270px 270px;
+}
+
+.active {
+    z-index: 10;
+}
+
+.image {
+    position: absolute;
+}
+
+.navigation_panel {
+    color: rgba(255, 255, 255, 0.3);;
+    font-size: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+.dot {
+    margin-right: 17px;
+    cursor: pointer;
+}
+.arrow-left{
+    margin-right: 17px;
+    cursor: pointer;
+}
+.arrow-right {
+    cursor: pointer;
+}
+
+.slider_containter {
+    width: 679px;
+    height: 482px;
+    position: relative;
+}
+.dot_active {
+    color: white;
+}
+.dots {
+    display: flex;
+    flex-direction: row;
+}
